@@ -25,10 +25,10 @@ while (true) {
         break;
     }
     else if (userNum > preNum) {
-        console.log("Your guess is GREATER than the predifined number!");
+        console.log("Your guess is GREATER than the predefined number!");
     }
     else {
-        console.log("Your guess is LESSER than the predifined number!");
+        console.log("Your guess is LESSER than the predefined number!");
     }
 }
 
@@ -71,7 +71,7 @@ let operator: string = "-";
 let result = (num1: number, num2: number, action: string) => {
     switch (action) {
         case "+":
-            return num1 + num2
+            return num1 + num2;
             break;
         case "-":
             return num1 - num2;
