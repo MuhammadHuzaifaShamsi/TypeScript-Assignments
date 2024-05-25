@@ -9,7 +9,6 @@ type Product = {
 let inventory = [];
 
 
-
 let firstProduct: Product = {
     name: "BMW m3",
     model: 2020,
