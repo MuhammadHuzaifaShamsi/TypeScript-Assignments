@@ -1,8 +1,7 @@
-<h3>Object Assignments</h3>
-<br>
+Object Assignments
+
 Learning Objectives:
-I
-n this assignment, you'll gain practical experience with TypeScript type aliases, a powerful feature for defining object structures. By working with employee data, car details, and colorful T-shirts, you'll solidify your understanding of:
+In this assignment, you'll gain practical experience with TypeScript type aliases, a powerful feature for defining object structures. By working with employee data, car details, and colorful T-shirts, you'll solidify your understanding of:
 • Type Aliases: Creating custom types to represent complex objects with specific properties.
 • Nested Objects: Organizing data within objects using nested structures for hierarchical relationships.
 • Union Types: Restricting a property's value to a set of allowed options (e.g., "Manager", "Engineer", "Intern").
@@ -13,17 +12,21 @@ n this assignment, you'll gain practical experience with TypeScript type aliases
 The Assignment:
 This assignment is divided into three parts, each focusing on using type aliases to model real-world scenarios:
 
-<h5>Part 1: Employee Data</h5>
+Part 1: Employee Data
 Challenge:
 1. Design a type alias named Employee to represent an employee object with properties like name (string), department (string), and role (string).
 2. Include an optional nested object named contact to hold phone and email information (if provided).
 3. Employ a union type for the role property to restrict it to "Manager", "Engineer", or "Intern".
 4. Make the skills property an optional array of strings for listing an employee's skills (if any).
+
+
 Part 2: Car Details
 Challenge:
 1. Design a type alias named Car to represent a car object.
 2. Include a nested object named engine within Car, containing a property named horsepower (number).
 3. Define a function named getHorsepower directly within the Car type alias to retrieve the engine's horsepower.
+
+
 Part 3: Colorful T-Shirts
 Challenge:
 1. Design a type alias named Product to represent a T-shirt object with properties like name (string), price (number), and color (string).
