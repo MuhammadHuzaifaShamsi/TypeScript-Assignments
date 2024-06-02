@@ -5,7 +5,7 @@ let scrabbledArray: any = ["student", 324927, "of", "I", true, "GIAIC", "am a"];
 let theArray: string[] = [];
 
 for (let i = 0; i < scrabbledArray.length; i++) {
-    if (scrabbledArray[i] == ("I")) {
+    if (scrabbledArray[i] == "I") {
         theArray.unshift(scrabbledArray[i]);
     }
     else if (scrabbledArray[i] == "am a") {
